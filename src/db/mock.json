@@ -80,5 +80,38 @@
       "slug": "the-shining",
       "description": "A psychological horror novel about a family's winter stay at an isolated hotel."
     }
+  ],
+  "user": [
+      {
+          "id":1,
+          "username":"Hla Hla",
+          "email":"hlahla@gmail.com",
+          "password":"111111"
+      },
+      {
+          "id":2,
+          "username":"Mg Myo",
+          "email":"mgmyo@gmail.com",
+          "password":"222222"
+      },
+      {
+          "id":3,
+          "username":"Khin Khin",
+          "email":"khinkhin@gmail.com",
+          "password":"333333"
+      },
+      {
+          "id":4,
+          "username":"Kyaw Kyaw",
+          "email":"kyawkyaw@gmail.com",
+          "password":"444444"
+      },
+      {
+          "id":5,
+          "username":"Su Su",
+          "email":"susu@gmail.com",
+          "password":"555555"
+      }
   ]
+  
 }

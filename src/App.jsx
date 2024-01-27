@@ -3,7 +3,7 @@ import { GetBookData } from "./service/book.service";
 import { data } from "autoprefixer";
 import useFetch from "./hook/useFetch";
 import { Routes, Route } from "react-router-dom";
-import { DetailBookPage, HomePage } from "./page";
+import { AdminPage, BlogPage, DashboardPage, DetailBookPage, HomePage, InventoryPage, UserPage } from "./page";
 import { NavComponent } from "./components";
 import NotFound from "../not-found";
 
@@ -44,7 +44,13 @@ const App = () => {
       <NavComponent/>
       <Routes>
         <Route path="/" element={<HomePage />}></Route>
-        <Route path="/detail/:id" element={<DetailBookPage/>}></Route>
+        <Route path="/detail/:id" element={<DetailBookPage/>}/>
+        <Route path="/dashboard" element={<DashboardPage/>}>
+          <Route index element={<InventoryPage/>}/>
+          <Route path="user" element={<UserPage/>}/>
+          <Route path="blog" element={<BlogPage/>}/>
+        </Route>
+        <Route path="admin" element={<AdminPage/>}/>
         <Route path="*" element={<NotFound/>}></Route>
       </Routes>
     </div>
