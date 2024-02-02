@@ -10,3 +10,6 @@ export {default as UserPage} from "./dashboard/module/User.page";
 
 //Admin
 export {default as AdminPage} from "./admin/Admin.page"
+
+//Registration
+export {default as RegistrationPage} from "./dashboard/module/Registration"

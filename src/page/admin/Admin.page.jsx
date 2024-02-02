@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Auth } from "../../service/user.service";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const AdminPage = () => {
   const nav = useNavigate();
@@ -23,6 +23,7 @@ const AdminPage = () => {
       localStorage.setItem("auth", JSON.stringify(data));
       nav("/dashboard", { state: { data } });
     }
+    
   };
   return (
     <div>
@@ -31,6 +32,7 @@ const AdminPage = () => {
           <img
             src="https://images.unsplash.com/photo-1546074177-ffdda98d214f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTcxfHxib29rJTIwd2Vic2l0ZXxlbnwwfHwwfHx8MA%3D%3D"
             alt=""
+            className="w-full"
           />
         </div>
         <div className=" col-span-1 rounded-e-lg bg-gray-100">
@@ -39,10 +41,10 @@ const AdminPage = () => {
               Admin Login
             </h1>
             <form onSubmit={handleSubmit}>
-              <div className="flex gap-11 text-lg font-semibold text-orange-950">
+              <div className="flex gap-11 text-xl font-semibold text-orange-950">
                 <label htmlFor="name">Email</label>
-                <div className="flex gap-3">
-                  <span>:</span>
+                <div className="flex gap-3 flex-grow">
+                  <span className="">:</span>
                   <input
                     required
                     value={formData.email}
@@ -50,16 +52,16 @@ const AdminPage = () => {
                       setFormData((pre) => ({ ...pre, email: e.target.value }))
                     }
                     type="text"
-                    className=" focus-visible:outline-none"
+                    className="w-full focus-visible:outline-none"
                     name="name"
                     id="name"
                   />
                 </div>
               </div>
-              <div className="flex gap-3 mt-5 font-semibold text-lg text-orange-950">
+              <div className="flex justify-between mt-5 font-semibold text-xl text-orange-950">
                 <label htmlFor="password">Password</label>
-                <div className="flex gap-3">
-                  <span>:</span>
+                <div className="flex gap-3 flex-grow">
+                  <span className=" pl-3">:</span>
                   <input
                     required
                     value={formData.password}
@@ -70,19 +72,27 @@ const AdminPage = () => {
                       }))
                     }
                     type="password"
-                    className=" focus-visible:outline-none"
+                    className=" w-full focus-visible:outline-none"
                     name="password"
                     id="password"
                   />
                 </div>
               </div>
-              <div className="text-center mt-5">
+              <div className="text-center mt-5 ">
                 <button
                   type="submit"
-                  className="  px-5 rounded-md py-2 bg-gradient-to-l from-stone-200  to-gray-500 font-semibold text-white "
+                  className=" w-full  px-5 rounded-md py-2 bg-gradient-to-l from-stone-200  to-gray-500 font-semibold text-white "
                 >
                   Login
                 </button>
+                <div className="mt-3 flex justify-between items-center">
+                  <p className="text-sm text-red-500">don't have account?</p>
+                  <Link to="/">
+                    <p className="text-xl font-bold text-orange-900">
+                      Register here
+                    </p>
+                  </Link>
+                </div>
               </div>
             </form>
           </div>

@@ -2,7 +2,7 @@
   "book": [
     {
       "id": "1",
-      "img":"https://mir-s3-cdn-cf.behance.net/project_modules/disp/80341619846549.562e1421640e3.jpg",
+      "img": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/80341619846549.562e1421640e3.jpg",
       "title": "The Catcher in the Rye",
       "author": "J.D. Salinger",
       "slug": "catcher-in-the-rye",
@@ -10,7 +10,7 @@
     },
     {
       "id": "2",
-      "img":"https://epqkkxb65h3.exactdn.com/wp-content/uploads/2023/02/m-2908.jpg?strip=all&lossy=1&resize=430%2C600&ssl=1",
+      "img": "https://epqkkxb65h3.exactdn.com/wp-content/uploads/2023/02/m-2908.jpg?strip=all&lossy=1&resize=430%2C600&ssl=1",
       "title": "To Kill a Mockingbird",
       "author": "Harper Lee",
       "slug": "to-kill-a-mockingbird",
@@ -18,7 +18,7 @@
     },
     {
       "id": "3",
-      "img":"https://m.media-amazon.com/images/I/612ADI+BVlL._AC_UF1000,1000_QL80_.jpg",
+      "img": "https://m.media-amazon.com/images/I/612ADI+BVlL._AC_UF1000,1000_QL80_.jpg",
       "title": "1984",
       "author": "George Orwell",
       "slug": "1984",
@@ -26,7 +26,7 @@
     },
     {
       "id": "4",
-      "img":"https://m.media-amazon.com/images/I/81QuEGw8VPL._AC_UF1000,1000_QL80_.jpg",
+      "img": "https://m.media-amazon.com/images/I/81QuEGw8VPL._AC_UF1000,1000_QL80_.jpg",
       "title": "The Great Gatsby",
       "author": "F. Scott Fitzgerald",
       "slug": "the-great-gatsby",
@@ -34,7 +34,7 @@
     },
     {
       "id": "5",
-      "img":"https://m.media-amazon.com/images/I/71RVt35ZAbL._AC_UF1000,1000_QL80_.jpg",
+      "img": "https://m.media-amazon.com/images/I/71RVt35ZAbL._AC_UF1000,1000_QL80_.jpg",
       "title": "Harry Potter and the Sorcerer's Stone",
       "author": "J.K. Rowling",
       "slug": "harry-potter-sorcerers-stone",
@@ -42,7 +42,7 @@
     },
     {
       "id": "6",
-      "img":"https://www.pluggedin.com/wp-content/uploads/2020/01/hobbit-cover.jpg",
+      "img": "https://www.pluggedin.com/wp-content/uploads/2020/01/hobbit-cover.jpg",
       "title": "The Hobbit",
       "author": "J.R.R. Tolkien",
       "slug": "the-hobbit",
@@ -50,7 +50,7 @@
     },
     {
       "id": "7",
-      "img":"https://images.squarespace-cdn.com/content/v1/5d253c231b7b3d000152f204/1636959802830-AW7JAWUJGCXXUYVIZC3J/Pride_and_Prejudice_Cover-Amazon-Front__77495.1569338564.386.513.jpg",
+      "img": "https://images.squarespace-cdn.com/content/v1/5d253c231b7b3d000152f204/1636959802830-AW7JAWUJGCXXUYVIZC3J/Pride_and_Prejudice_Cover-Amazon-Front__77495.1569338564.386.513.jpg",
       "title": "Pride and Prejudice",
       "author": "Jane Austen",
       "slug": "pride-and-prejudice",
@@ -58,7 +58,7 @@
     },
     {
       "id": "8",
-      "img":"https://m.media-amazon.com/images/I/61I24wOsn8L._AC_UF1000,1000_QL80_.jpg",
+      "img": "https://m.media-amazon.com/images/I/61I24wOsn8L._AC_UF1000,1000_QL80_.jpg",
       "title": "The Hunger Games",
       "author": "Suzanne Collins",
       "slug": "the-hunger-games",
@@ -66,7 +66,7 @@
     },
     {
       "id": "9",
-      "img":"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1566425108l/33.jpg",
+      "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1566425108l/33.jpg",
       "title": "The Lord of the Rings",
       "author": "J.R.R. Tolkien",
       "slug": "the-lord-of-the-rings",
@@ -74,7 +74,7 @@
     },
     {
       "id": "10",
-      "img":"https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1353277730i/11588.jpg",
+      "img": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1353277730i/11588.jpg",
       "title": "The Shining",
       "author": "Stephen King",
       "slug": "the-shining",
@@ -82,36 +82,35 @@
     }
   ],
   "user": [
-      {
-          "id":1,
-          "username":"Hla Hla",
-          "email":"hlahla@gmail.com",
-          "password":"111111"
-      },
-      {
-          "id":2,
-          "username":"Mg Myo",
-          "email":"mgmyo@gmail.com",
-          "password":"222222"
-      },
-      {
-          "id":3,
-          "username":"Khin Khin",
-          "email":"khinkhin@gmail.com",
-          "password":"333333"
-      },
-      {
-          "id":4,
-          "username":"Kyaw Kyaw",
-          "email":"kyawkyaw@gmail.com",
-          "password":"444444"
-      },
-      {
-          "id":5,
-          "username":"Su Su",
-          "email":"susu@gmail.com",
-          "password":"555555"
-      }
+    {
+      "id": 1,
+      "username": "Hla Hla",
+      "email": "hlahla@gmail.com",
+      "password": "111111"
+    },
+    {
+      "id": 2,
+      "username": "Mg Myo",
+      "email": "mgmyo@gmail.com",
+      "password": "222222"
+    },
+    {
+      "id": 3,
+      "username": "Khin Khin",
+      "email": "khinkhin@gmail.com",
+      "password": "333333"
+    },
+    {
+      "id": 4,
+      "username": "Kyaw Kyaw",
+      "email": "kyawkyaw@gmail.com",
+      "password": "444444"
+    },
+    {
+      "id": 5,
+      "username": "Su Su",
+      "email": "susu@gmail.com",
+      "password": "555555"
+    }
   ]
-  
 }

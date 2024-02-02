@@ -13,7 +13,7 @@ const DashboardPage = () => {
   return (
     <div className="grid grid-cols-12 h-screen">
     
-      <div className=" col-span-4">
+      <div className=" col-span-2">
         <ul className="text-xl font-semibold text-orange-900">
           <Link to="/dashboard">
             <li>Dashboard</li>
@@ -26,7 +26,7 @@ const DashboardPage = () => {
           </Link>
         </ul>
       </div>
-      <div className=" col-span-8">
+      <div className=" col-span-10">
         <Outlet />
       </div>
     </div>
